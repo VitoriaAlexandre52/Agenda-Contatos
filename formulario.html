@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário | Agenda de Contatos</title>
+    <link href="./styles/formulario.css" rel="stylesheet">
+</head>
+<body>
+    <div class="box">
+        <form action="cadastro.php" method="POST">
+            <fieldset>
+                <legend><strong>Cadastro de Contatos</strong></legend>
+                <br><br>
+                <div class="formulario">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+                <br><br>
+                <div class="formulario">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome">
+                </div>
+                <br><br>
+                <div class="formulario">
+                    <label for="data"><strong>Data de Nascimento</strong></label>
+                    <input type="date" name="data" id="data">
+                </div>
+                <br><br>
+                <div class="formulario">
+                    <label for="idade"><strong>Idade</strong></label>
+                    <input type="text" name="idade" id="idade">
+                </div>
+                <br><br>
+                <div class="formulario">
+                    <label for="telefone"><strong>Telefone</strong></label>
+                    <input type="tel" name="telefone" id="telefone" required>
+                </div>
+                <br><br>
+                <div class="formulario">
+                    <label for="email"><strong>Email</strong></label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <br><br>
+                <button type="submit">Enviar</button>
+                <br><br>
+                <a href="./home.html">Voltar</a>    
+            </fieldset>
+
+            
+        </form>
+    </div>
+    
+</body>
+</html>

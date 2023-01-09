@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    color: black;
+    background-color: white ;
+    margin-left: 140px;
+
+    
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+}
+
+.t1{
+    color: #4B0082;
+    font-family: cursive;
+}
+
+.t2{
+    font-family: cursive;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+}
+
+.conteudo-principal-escrito{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 35px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    width: 490px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+a{
+    text-decoration: none;
+    height: 30px;
+    width: 50%;
+    background-color: #4B0082;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding-left: 75px;
+    padding-top: 5px;
+    align-self: center;
+    height: 35px;;
+}
+
+a:hover{
+cursor: pointer;
+background-color: #a462d3;
+border: 2px solid #a462d3;
+}
+
+input{
+    margin-top: 20px;
+    height: 35px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid #4B0082;
+    font-size: 15px;
+}
+
+input:focus{
+    background-color: #e0b6ff;
+}

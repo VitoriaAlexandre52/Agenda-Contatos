@@ -1,0 +1,11 @@
+CREATE DATABASE agenda_contatos;
+
+CREATE TABLE informacoes(
+     id_contato int AUTO_INCREMENT,
+     nome varchar(100),
+     sobrenome varchar(100),]
+     idade int,
+     telefone int,
+     email varchar(100),
+     PRIMARY KEY(id_contato)
+);

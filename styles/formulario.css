@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    color: black;
+    background-color: white ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:  #e4c8f8;
+    padding: 15px;
+    border-radius: 15px;
+    width: 28%;
+}
+
+legend{
+    border: 1px solid #4B0082;
+    border-radius: 8px;
+    padding: 8px;
+    text-align: center;
+    background-color: #4B0082;
+    color: white;
+}
+
+fieldset{
+    border: 3px solid #4B0082;
+}
+
+input, button{
+    border-radius: 3px;
+    border: none;
+}
+
+.formulario{
+    margin-bottom: 1px;
+    margin-left: 3px;
+}
+
+button{
+    font-size: 20px;
+    border-radius: 5px;
+    width: 70%;
+    height: 30px;
+    background-color: #4B0082;
+    color: white;   
+    margin-left: 45px;
+}
+
+button:hover{
+    background-color: #a462d3;
+    cursor: pointer;
+}
+
+input{
+    height: 22px ;
+    margin-left: 5px;
+}
+
+input:focus{
+    background-color: #F8F8FF	;
+    
+}
+
+a{
+   border: 2px solid #4B0082;
+   font-size: 20px;
+   border-radius: 5px;
+   height: 32px;
+   background-color: #4B0082;
+   color: white;  
+   margin-left: 45px;
+   padding-left: 26%;
+   padding-right: 26%;
+}
+
+a:hover{
+    background-color: #a462d3;
+    border: 2px solid #a462d3;
+    cursor: pointer; 
+}
